@@ -1,7 +1,7 @@
 RTE/USB/USBH_Config_0.o: ..\RTE\USB\USBH_Config_0.c \
-  C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h \
-  C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\RTE_Components.h \
-  C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\USB\USBH_Config_MSC.h \
+  C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h \
+  C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\RTE_Components.h \
+  C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\USB\USBH_Config_MSC.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\USB\Include\usbh_config.h \
   C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdint.h \
   C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdbool.h \
@@ -28,9 +28,9 @@ RTE/USB/USBH_Config_0.o: ..\RTE\USB\USBH_Config_0.c \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\USB\Include\usbh_config_def_0.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\USB\Include\usbh_config_hc_0.c \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\USB\Include\usbh_cmsis_rtos1.c
-C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h:
-C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\RTE_Components.h:
-C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\USB\USBH_Config_MSC.h:
+C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h:
+C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\RTE_Components.h:
+C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\USB\USBH_Config_MSC.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\USB\Include\usbh_config.h:
 C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdint.h:
 C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdbool.h:

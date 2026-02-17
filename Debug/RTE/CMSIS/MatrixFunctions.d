@@ -1,6 +1,6 @@
 RTE/CMSIS/MatrixFunctions.o: \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\MatrixFunctions\MatrixFunctions.c \
-  C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h \
+  C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\MatrixFunctions\arm_mat_add_f32.c \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\matrix_functions.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\arm_math_types.h \
@@ -59,7 +59,7 @@ RTE/CMSIS/MatrixFunctions.o: \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\MatrixFunctions\arm_mat_solve_lower_triangular_f64.c \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\MatrixFunctions\arm_mat_ldlt_f32.c \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\MatrixFunctions\arm_mat_ldlt_f64.c
-C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h:
+C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\MatrixFunctions\arm_mat_add_f32.c:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\matrix_functions.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\arm_math_types.h:

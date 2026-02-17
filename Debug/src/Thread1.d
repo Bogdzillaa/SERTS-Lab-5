@@ -1,5 +1,5 @@
-src/Thread2.o: ..\src\Thread2.c \
-  C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h \
+src/Thread1.o: ..\src\Thread1.c \
+  C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h \
   C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdint.h \
   C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stddef.h \
@@ -12,7 +12,7 @@ src/Thread2.o: ..\src\Thread2.c \
   C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdbool.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\USB\Include\rl_usb.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\USB\Include\usb_os.h \
-  C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\RTE_Components.h \
+  C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\RTE_Components.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\USB\Include\usb_compiler.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h \
@@ -76,7 +76,7 @@ src/Thread2.o: ..\src\Thread2.c \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\transform_functions.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\filtering_functions.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\quaternion_math_functions.h
-C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h:
+C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h:
 C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdint.h:
 C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stddef.h:
@@ -89,7 +89,7 @@ C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Driver\Inclu
 C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdbool.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\USB\Include\rl_usb.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\USB\Include\usb_os.h:
-C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\RTE_Components.h:
+C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\RTE_Components.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\USB\Include\usb_compiler.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h:

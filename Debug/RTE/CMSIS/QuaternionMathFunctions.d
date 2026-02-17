@@ -1,6 +1,6 @@
 RTE/CMSIS/QuaternionMathFunctions.o: \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c \
-  C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h \
+  C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\QuaternionMathFunctions\arm_quaternion_norm_f32.c \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\quaternion_math_functions.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\arm_math_types.h \
@@ -21,7 +21,7 @@ RTE/CMSIS/QuaternionMathFunctions.o: \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\QuaternionMathFunctions\arm_quaternion_product_f32.c \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\QuaternionMathFunctions\arm_quaternion2rotation_f32.c \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\QuaternionMathFunctions\arm_rotation2quaternion_f32.c
-C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h:
+C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\QuaternionMathFunctions\arm_quaternion_norm_f32.c:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\quaternion_math_functions.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\arm_math_types.h:

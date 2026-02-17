@@ -1,6 +1,6 @@
 RTE/CMSIS/BayesFunctions.o: \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\BayesFunctions\BayesFunctions.c \
-  C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h \
+  C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\BayesFunctions\arm_gaussian_naive_bayes_predict_f32.c \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\bayes_functions.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\arm_math_types.h \
@@ -17,7 +17,7 @@ RTE/CMSIS/BayesFunctions.o: \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\statistics_functions.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\basic_math_functions.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\fast_math_functions.h
-C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h:
+C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Source\BayesFunctions\arm_gaussian_naive_bayes_predict_f32.c:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\dsp\bayes_functions.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\DSP\Include\arm_math_types.h:

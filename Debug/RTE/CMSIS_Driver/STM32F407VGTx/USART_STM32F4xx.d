@@ -1,6 +1,6 @@
 RTE/CMSIS_Driver/STM32F407VGTx/USART_STM32F4xx.o: \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\CMSIS\Driver\USART_STM32F4xx.c \
-  C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h \
+  C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\CMSIS\Driver\USART_STM32F4xx.h \
   C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdint.h \
   C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdbool.h \
@@ -10,7 +10,7 @@ RTE/CMSIS_Driver/STM32F407VGTx/USART_STM32F4xx.o: \
   C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stddef.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\MDK\Templates\Inc\stm32f4xx_hal_conf.h \
-  C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\RTE_Components.h \
+  C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\RTE_Components.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h \
@@ -39,8 +39,8 @@ RTE/CMSIS_Driver/STM32F407VGTx/USART_STM32F4xx.o: \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h \
-  C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Device\STM32F407VGTx\RTE_Device.h
-C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Pre_Include_Global.h:
+  C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Device\STM32F407VGTx\RTE_Device.h
+C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\CMSIS\Driver\USART_STM32F4xx.h:
 C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdint.h:
 C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdbool.h:
@@ -50,7 +50,7 @@ C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Driver\Inclu
 C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stddef.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\MDK\Templates\Inc\stm32f4xx_hal_conf.h:
-C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\RTE_Components.h:
+C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\RTE_Components.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h:
@@ -79,4 +79,4 @@ C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h:
 C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h:
-C:\Users\Bogdan\ Cook\git\SERTS-Lab-4\Lab\ 4\RTE\Device\STM32F407VGTx\RTE_Device.h:
+C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Device\STM32F407VGTx\RTE_Device.h:

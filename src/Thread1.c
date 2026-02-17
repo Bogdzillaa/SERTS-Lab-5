@@ -25,12 +25,8 @@ void delay(void){
   }
 
 void Thread_1 (void const *argument);             // thread function 1
-void Thread_2 (void const *argument);             // thread function 2
 osThreadId tid_Thread_1;                      // thread id 1
-osThreadId tid_Thread_2;                      // thread id 2
 osThreadDef (Thread_1, osPriorityNormal, 1, 0);      // thread object 1
-osThreadDef (Thread_2, osPriorityAboveNormal, 1, 0);      // thread object 2
-int32_t rx_msg_data; // received data
 
 #define MSGQUEUE_OBJECTS    2                 // number of Message Queue Objects
 
@@ -41,37 +37,16 @@ int Init_Thread (void) {
   LED_Initialize(); // Initialize the LEDs
   UART_Init(); // Initialize the UART
   mid_MsgQueue = osMessageCreate (osMessageQ(MsgQueue), NULL);  // create msg queue
-  if (!mid_MsgQueue) {
-   ; // Message Queue object not created, handle failure
-  }
+
+
   tid_Thread_1 = osThreadCreate (osThread(Thread_1), NULL);
   if (!tid_Thread_1) return(-1);
-  tid_Thread_2 = osThreadCreate (osThread(Thread_2), NULL);
-  if (!tid_Thread_2) return(-1);
-
   return(0);
 }
 
 void Thread_1 (void const *argument) {
-  int32_t tx_msg_data=0; // data to send
-  while (1) {
-    LED_On(0);
-    delay();
-    osMessagePut (mid_MsgQueue, tx_msg_data, osWaitForever); // Send Message
-    tx_msg_data++; // Make a new value to send to the other thread
-   LED_Off(0); delay();
-  }
-}
-
-void Thread_2 (void const *argument) {
-  osEvent evt; // receive object
-  while (1) {
-    LED_On(1);
-    delay();
-    evt = osMessageGet (mid_MsgQueue, osWaitForever);        // wait for message
-    if (evt.status == osEventMessage) { // check for valid message
-    rx_msg_data = evt.value.v;
-    LED_Off(1); delay();
-   }
-  }
+	char *tx_buf = "Send\n\r";
+	char rx_buf[1];
+	UART_send(tx_buf, 6);
+	UART_receive(rx_buf, 1);
 }
