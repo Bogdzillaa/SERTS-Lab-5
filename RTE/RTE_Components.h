@@ -2,8 +2,8 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: Lab 4
- * RTE configuration: Lab 4.rteconfig
+ * Project: Lab 5
+ * RTE configuration: Lab 5.rteconfig
 */
 #ifndef RTE_COMPONENTS_H
 #define RTE_COMPONENTS_H

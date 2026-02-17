@@ -1,0 +1,64 @@
+
+#include "cmsis_os.h"  // CMSIS RTOS header file
+#include "Board_LED.h"
+#include "UART_driver.h"
+#include "stdint.h"                     // data type definitions
+#include "stdio.h"                      // file I/O functions
+#include "rl_usb.h"                     // Keil.MDK-Pro::USB:CORE
+#include "rl_fs.h"                      // Keil.MDK-Pro::File System:CORE
+#include "stm32f4xx_hal.h"
+#include "stm32f4_discovery.h"
+#include "stm32f4_discovery_audio.h"
+#include "math.h"
+#include "arm_math.h" // header for DSP library
+#include <stdio.h>
+
+// LED constants
+#define LED_Green   0
+#define LED_Orange  1
+#define LED_Red     2
+#define LED_Blue    3
+
+void delay(void){
+  int32_t j;
+  for(j=0;j<20000000;j++){};
+  }
+
+void Thread_1 (void const *argument);             // thread function 1
+osThreadId tid_Thread_1;                      // thread id 1
+osThreadDef (Thread_1, osPriorityNormal, 1, 0);      // thread object 1
+
+#define MSGQUEUE_OBJECTS    2                 // number of Message Queue Objects
+
+osMessageQId mid_MsgQueue;                     // message queue id
+osMessageQDef (MsgQueue, MSGQUEUE_OBJECTS, int32_t);    // message queue object
+
+int Init_Thread (void) {
+  LED_Initialize(); // Initialize the LEDs
+  UART_Init(); // Initialize the UART
+  mid_MsgQueue = osMessageCreate (osMessageQ(MsgQueue), NULL);  // create msg queue
+
+
+  tid_Thread_1 = osThreadCreate (osThread(Thread_1), NULL);
+  if (!tid_Thread_1) return(-1);
+  return(0);
+}
+
+void Thread_1 (void const *argument) {
+	char *tx_buf = "Send\n\r";
+	char rx_buf[1];
+	UART_send(tx_buf, 6);
+	UART_receive(rx_buf, 1);
+	char r_data[2]={0,0};
+	while (1) {
+		UART_receive(r_data, 1);
+		if(!strcmp(r_data,"R"))
+		{
+			LED_On(1);
+		}
+		else if(!strcmp(r_data,"G"))
+		{
+			LED_On(0);
+		}
+	} // end while
+}

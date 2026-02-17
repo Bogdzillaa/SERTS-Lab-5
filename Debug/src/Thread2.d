@@ -1,4 +1,4 @@
-src/Thread1.o: ..\src\Thread1.c \
+src/Thread2.o: ..\src\Thread2.c \
   C:\Users\Bogdan\ Cook\Development\ Studio\ Workspace\Lab\ 5\RTE\Pre_Include_Global.h \
   C:\Users\Bogdan\ Cook\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\INC\cmsis_os.h \
   C:\Program\ Files\Arm\Development\ Studio\ 2023.0\sw\ARMCompiler6.20\bin\..\include\stdint.h \
